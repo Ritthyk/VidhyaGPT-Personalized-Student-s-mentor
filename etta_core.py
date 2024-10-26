@@ -140,4 +140,4 @@ while True:
     else:
         print("Audio does not exist.")
     
-del response, query_engine
+del response_stream, query_engine
