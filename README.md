@@ -1,2 +1,2 @@
 # VidhyaGPT---Personalized-Student-s-mentor
-Ever wanted your own personal tutor, present near you for 24x7! Don't worry, we got you covered 
+Ever wanted your own personal tutor, present near you for 24x7! Don't worry, we got you covered: VidyaGPT is exactly your own personal tutor paying full attention and care for your development.
