@@ -46,8 +46,7 @@ def translate_audio_hindi_to_english(audio_path):
 
 def initialize_conversation_bot():
     llm = LlamaCPP(
-        model_url=None,
-        model_path=r"K:\project-CMK\llama-2-7b-chat.Q8_0.gguf",
+        model_url="TheBloke/Llama-2-7B-Chat-GGUF",
         temperature=0.3,
         max_new_tokens=512,
         # llama2 has a context window of 4096 tokens, but we set it lower to allow for some wiggle room
