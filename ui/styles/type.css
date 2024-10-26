@@ -1,0 +1,19 @@
+/* TypewriterSidebar.css */
+.sidebar-container {
+    width: 20%;
+    height: 100vh;
+    padding: 20px;
+    background-color: #202020;
+    color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: monospace;
+    border-right: 2px solid #333;
+    font-size: 30px;
+}
+
+.typewriter-text {
+    font-size: 30px;
+    white-space: pre-wrap; /* Allows line breaks in the text */
+}
