@@ -34,8 +34,8 @@ Ever felt chatting boring? well look at what _Vidhya_ can do for you
 
 Having a bunch of docs, excels or ppts that you have some struggles with? Again _Vidya_ got you covered
                
-               1. _Fully integrated vector database for each personnel,_
-               2. _RAG support enabled for efficient querying._
+               1. Fully integrated vector database for each personnel,
+               2. RAG support enabled for efficient querying.
 
 **VidhyaGPT** is designed to advance educational equity by providing students with a personalized, accessible mentor. By offering support across diverse learning needs and preferences, it empowers students from varied socio-economic backgrounds to overcome educational challenges that may arise due to limited resources or support at home.
 
