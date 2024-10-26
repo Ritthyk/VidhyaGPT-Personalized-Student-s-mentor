@@ -23,14 +23,14 @@ The challenge lies in:
 
 Things _Vidhya_ can do for you,
              
-             1. _Analysis of the student's interests_
-             2. _Personalized learning Recommendations_
-             3. _Personalized LLM Skill examiner_
+             1. Analysis of the student's interests
+             2. Personalized learning Recommendations
+             3. Personalized LLM Skill examiner
 
 Ever felt chatting boring? well look at what _Vidhya_ can do for you
               
-              1.  _Speech to speech learning experience,_
-              2. _Multi-Lingual compatibility_ ( Yes you saw it right, **you can speak in your native language!!** )
+              1.  Speech to speech learning experience,
+              2. Multi-Lingual compatibility ( Yes you saw it right, you can speak in your native language!! )
 
 Having a bunch of docs, excels or ppts that you have some struggles with? Again _Vidya_ got you covered
                
@@ -41,6 +41,6 @@ Having a bunch of docs, excels or ppts that you have some struggles with? Again 
 
 The project addresses key educational gaps by providing:
 
-               24/7 Accessible Mentorship: Students receive guidance and feedback anytime they need, promoting consistent, self-paced learning.
-               Personalized Learning: Tailored support aligns with each student's learning style, boosting their confidence and academic achievement.
-               Mental Health Support: By integrating stress management and well-being tips, VidhyaGPT promotes a healthier approach to learning.
+               1. 24/7 Accessible Mentorship: Students receive guidance and feedback anytime they need, promoting consistent, self-paced learning.
+               2. Personalized Learning: Tailored support aligns with each student's learning style, boosting their confidence and academic achievement.
+               3. Mental Health Support: By integrating stress management and well-being tips, VidhyaGPT promotes a healthier approach to learning.
