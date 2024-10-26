@@ -109,7 +109,7 @@ def translate_and_synthesize(text):
     cleaned_text = re.sub(_number_re, lambda m: safe_num2words(int(m.group(0)), "en"), cleaned_text)
     translation = tts_translator(cleaned_text)[0]['translation_text']
     print("\n\nTranslation:",translation)
-    tts.tts_to_file(text=translation, file_path="out.wav", speaker_wav=r"K:\project-CMK\kurisu_xtts\kurisu_en_example.wav", language="hi")
+    tts.tts_to_file(text=translation, file_path="out.wav", speaker_wav=r"path\to\kurisu_xtts\kurisu_en_example.wav", language="hi")
 
 def update_index():
     documents = SimpleDirectoryReader("Data").load_data()
@@ -123,7 +123,7 @@ def chat_with_bot(query_engine, question):
 counter=0
 query_engine = initialize_conversation_bot()
 while True:
-    input_path = r"input\audio.mp3"
+    input_path = r"path\to\input\audio.mp3"
     if os.path.exists(input_path):
         counter+=1
         response = chat_with_bot(query_engine, question:=translate_audio_hindi_to_english(input_path))
@@ -134,7 +134,7 @@ while True:
              text+=token
              print(token, end="")
         print("\n\n\nText:",text)
-        with open(r"output\output.txt", "w") as file:
+        with open(r"path\to\output\output.txt", "w") as file:
             file.write(text)
         translate_and_synthesize(text)
     else:
