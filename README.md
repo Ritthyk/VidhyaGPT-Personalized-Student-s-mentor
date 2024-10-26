@@ -22,15 +22,18 @@ The challenge lies in:
 **VidhyaGPT** aims to address the problems of each and every student in every possible domains or industries, quite an _AMBITIOUS_ goal it might seem, but not far-fetched in this era of **_GenAI_** and that's exactly what we are proposing,
 
 Things _Vidhya_ can do for you,
+             
              1. _Analysis of the student's interests_
              2. _Personalized learning Recommendations_
              3. _Personalized LLM Skill examiner_
 
 Ever felt chatting boring? well look at what _Vidhya_ can do for you
+              
               1.  _Speech to speech learning experience,_
               2. _Multi-Lingual compatibility_ ( Yes you saw it right, **you can speak in your native language!!** )
 
 Having a bunch of docs, excels or ppts that you have some struggles with? Again _Vidya_ got you covered
+               
                1. _Fully integrated vector database for each personnel,_
                2. _RAG support enabled for efficient querying._
 
