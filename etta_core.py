@@ -52,9 +52,7 @@ def initialize_conversation_bot():
         max_new_tokens=512,
         # llama2 has a context window of 4096 tokens, but we set it lower to allow for some wiggle room
         context_window=3900,
-        # set to at least 1 to use GPU
         model_kwargs={"n_gpu_layers": 100},
-        # transform inputs into Llama2 format
         messages_to_prompt=messages_to_prompt,
         completion_to_prompt=completion_to_prompt,
         verbose=True,
@@ -123,15 +121,15 @@ def chat_with_bot(query_engine, question):
     response_stream = query_engine.stream_chat(question)
     return response_stream
 
-i=0
+counter=0
 query_engine = initialize_conversation_bot()
 while True:
     input_path = r"input\audio.mp3"
     if os.path.exists(input_path):
-        i+=1
+        counter+=1
         response = chat_with_bot(query_engine, question:=translate_audio_hindi_to_english(input_path))
         os.remove(input_path)
-        print(f"Audio-{i} deleted successfully.")
+        print(f"Audio-{counter} deleted successfully.")
         text=""
         for token in response.response_gen:
              text+=token
