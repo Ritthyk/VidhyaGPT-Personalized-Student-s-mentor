@@ -86,7 +86,7 @@ def initialize_conversation_bot():
         "-----------------------------------------\n"
         "Please respond to the following query concisely:\n"
         "User: {query_str}\n\n"
-        "Limit your response to 2-3 sentences."
+        "Limit your response to 2-3 sentences or within 20 words."
     )
     qa_template = PromptTemplate(template)
     memory = ChatMemoryBuffer.from_defaults(token_limit=1500)
